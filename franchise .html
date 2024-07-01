@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    /* navigationbar */
+    .nav {
+      width: 100%;
+      height: 70px;
+      background-color: white;
+      position: fixed;
+      top: 0;
+      padding: 10px;
+      z-index: 1;
+    }
+    .logo {
+      padding-right: 500px;
+    }
+    .nav ul {
+      float: right;
+      display: flex;
+    }
+    .nav li {
+      display: inline;
+      padding: 20px;
+    }
+    .nav li a {
+      font-size: 11px;
+      color: rgb(59, 156, 59);
+      text-transform: uppercase;
+      word-spacing: 1;
+      text-decoration: none;
+    }
+
+
+    /* this is franchise */
+    .container {
+      margin-top: 100px;
+      text-transform: capitalize;
+    }
+    input{
+      padding: 9px ;
+      margin: 20px 35px;
+      text-transform: capitalize;
+    }
+    .textarea{
+        margin-left: 35px;
+        margin-top: 20px;
+        padding: 50px 175px;
+    }
+    .btn{
+        background-color: green;
+        border-radius: 80px;
+        color:white;
+        padding: 10px 30px;
+        margin-top:20px ;
+        margin-bottom: 20px ;
+        margin-left: 225px;
+
+    }
+    /* this is footer */
+    .footer {
+      margin-top: 30px;
+      width: 100%;
+    }
+    ul {
+      list-style: none;
+    }
+    .space {
+      padding-top: 30px;
+      text-align: center;
+    }
+     /* this is copyright */
+     .copyright{
+        margin-left: 500px;
+      }
+  </style>
+  <body>
+    <!-- this is a navigationbar -->
+    <div class="nav">
+      <ul>
+        <label class="logo">
+          <a href="#">
+            <img src="img/lapinoz-logo.png" width="130px" height="50px" />
+          </a>
+        </label>
+        <li><a href="pizz main.html">home</a></li>
+        <li><a href="oderonline navbar .html">order online</a></li>
+        <li><a href="store location.html">store loction</a></li>
+        <li><a href="franchise .html">franchise enquiry</a></li>
+        <li><a href="our story .html">our story</a></li>
+        <li><a href="contact us .html">contact us</a></li>
+      </ul>
+    </div>
+
+    <!-- this is franchise  -->
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h5>be your own boss</h5>
+          <h3 style="font-weight: 400">
+            join the <span style="font-weight: bold">la pino's </span>familly
+          </h3>
+          <p>
+            Are you looking for a franchise opportunity that focuses on good,
+            quality food? If yes, then we are proud to offer pizza franchise
+            opportunities across the states to people who have the same goals as
+            we do: To serve great food made from fresh ingredients in a great
+            atmosphere.
+          </p>
+          <p>
+            Investing in La Pinoz franchise gives you the independence of being
+            a business owner along with the support of our outstanding brand and
+            experienced network. So be a part of the bigger network and a
+            winning brand that keeps customers coming back for delicious Pizzas
+            just the way they want!
+          </p>
+          <p>
+            <span style="font-weight: bold">for franchise query:</span>
+            <br />
+            <strong>8699997039</strong>
+            <br />
+            <strong>8699997035</strong>
+            <br />
+            <strong>9888361510</strong>
+            <br />
+            <strong>9998826658(Karnataka)</strong>
+          </p>
+          <p>
+            Joining our pizza franchise family lets you benefit from the amazing
+            brand we have created and gives you the opportunity to gain the
+            independence of being your own boss.
+          </p>
+        </div>
+        <div class="col">
+          <h4>share your daitail</h4>
+          <input type="text" placeholder="name" /><input
+            type="text"
+            placeholder="last name"
+          />
+          <input type="text" placeholder="city" /><input
+            type="number"
+            placeholder="contact number"
+          />
+          <input type="email" placeholder="email id" /><br />
+          <textarea
+            class="textarea"
+            placeholder="write your messages"
+          ></textarea
+          ><br />
+          <button class="btn">send message</button>
+        </div>
+      </div>
+    </div>
+    <!-- this is footer -->
+    <div class="bg-success text-light">
+      <div class="space">
+        <div class="row row-cols-4">
+          <div class="col">
+            <h4>Useful Link</h4>
+            <ul>
+              <a
+                style="color: aliceblue; text-decoration: none"
+                href="refund policy .html"
+              >
+              <li>Refund Policy</li></a
+              >
+              <a style="color: aliceblue; text-decoration: none"href="terms_condition.html"><li>Terms & Conditions</li></a>
+              <a style="color: aliceblue; text-decoration: none" href="privet policy.html"><li>Privet Policy</li></a>
+              <a style="color: aliceblue; text-decoration: none"href="promo code .html"><li>Promo code</li></a>
+            </ul>
+          </div>
+          <div class="col">
+            <h4>Paymet Methods</h4>
+            <ul>
+              <li style="margin: 10px">
+                <img src="/img/cash-svg.svg" width="50px" />
+                <img src="/img/visa-svg.svg" width="50px" />
+                <img src="/img/gpay-svg.svg" width="50px" />
+              </li>
+              <li>
+                <img src="/img/paytm-svg.svg" width="50px" />
+                <img
+                  src="/img/mastercard-svg.svg"
+                  width="50px"
+                />
+                <img src="/img/upi-icon.svg" width="50px" />
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <h4>Contact Us</h4>
+            <ul>
+              <li>kevalrabadiya77@gmail.com</li>
+              <li>7096 40269</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h4>Follow Us</h4>
+            <ul>
+              <li>
+                <a href="https://www.facebook.com/LaPinozPizzaIndia">
+                  <img src="/img/facebook.png" width="35px"
+                /></a>
+                <a href="https://www.instagram.com/lapinozpizzaindia/">
+                  <img src="/img/instagram.png" width="35px"
+                /></a>
+                <a href="https://www.youtube.com/c/LaPinozPizzaIndia">
+                  <img src="/img/youtube.png" width="35px"
+                /></a>
+                <a href="https://www.pinterest.com/LaPinozPizzaindia">
+                  <img src="/img/pinterest.png" width="35px"
+                /></a>
+                <a href="https://twitter.com/LaPinozPizzaInd">
+                  <img src="/img/twitter.png" width="35px"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- this is copyright -->
+    <div class="copyright">
+      power by<span style="color: chartreuse;">uengage</span> &#169 copyright. allright reserved
+    </div>
+  </body>
+</html>
